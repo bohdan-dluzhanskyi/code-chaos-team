@@ -1,0 +1,23 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: #030a06;
+  background-color: #ebf8ed;
+}
+
+.section-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.list-subtitle {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.list-text {
+  font-weight: 400;
+  line-height: 1.6;
+}
