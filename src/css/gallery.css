@@ -1,3 +1,29 @@
+
+.gallery-title
+{
+    font-size: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px)
+{
+    .gallery-title 
+    {
+        margin-bottom: 24px;
+    }
+}
+
+.gallery-title-text
+{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 .gallery-list
 {
     display: flex;
@@ -5,11 +31,14 @@
     gap: 16px;
 }
 
-.gallery-item
+.gallery-img
 {
     width: 100%;
     border-radius: 32px;
-}
+    background-color: transparent;
+    overflow: hidden;
+    
+}  
 
 @media screen and (min-width: 768px) 
 {
@@ -17,14 +46,14 @@
         gap: 24px;
     }
 
-    .gallery-item {
+    .gallery-img {
         width: calc((100% - 24px) / 2);
     } 
 }
 
 @media screen and (min-width: 1440px) 
 {
-    .gallery-item
+    .gallery-img
     {
         width: calc((100% - 24px * 2) / 3);
     }
