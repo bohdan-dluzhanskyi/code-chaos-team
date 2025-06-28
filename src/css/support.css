@@ -59,4 +59,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+  display: block;
+  margin: 0 auto;
+}
+
+.sup-form {
+  margin-bottom: 24px;
 }
