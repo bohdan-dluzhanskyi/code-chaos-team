@@ -17,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 48px;
 }
 
 .footer-nav {
@@ -41,12 +42,10 @@
 
 .custom-divider {
   height: 0;
-  width: 280px;
+  width: 100%;
   border-top: 1px solid rgba(3, 10, 6, 0.15);
-  margin-top: 48px;
-  margin-bottom: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  top: 0;
 }
 
 .footer-menu-list {
@@ -83,6 +82,11 @@
   margin-top: 24px;
 }
 
+.footer-second {
+  position: relative;
+  padding-top: 24px;
+}
+
 /* ===== TABLET ===== */
 
 @media screen and (min-width: 768px) {
@@ -97,8 +101,8 @@
   }
 
   .logo-icon {
-    width: 160px;
-    height: 60px;
+    width: 164px;
+    height: 70px;
   }
 
   .footer-nav-menu {
@@ -115,12 +119,6 @@
     height: 40px;
   }
 
-  .custom-divider {
-    width: 704px;
-    margin-top: 24px;
-    margin-bottom: 16px;
-  }
-
   .footer-contacts-list {
     display: flex;
     align-items: baseline;
@@ -130,6 +128,14 @@
 
   .footer-copy {
     margin: 0;
+  }
+
+  .footer-second {
+    padding-top: 16px;
+  }
+
+  .footer-first {
+    margin-bottom: 24px;
   }
 }
 
@@ -151,6 +157,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 52px;
   }
 
   .footer-nav-menu {
@@ -164,11 +171,5 @@
   .social-icon {
     width: 24px;
     height: 24px;
-  }
-
-  .custom-divider {
-    width: 1312px;
-    margin-top: 52px;
-    margin-bottom: 16px;
   }
 }
