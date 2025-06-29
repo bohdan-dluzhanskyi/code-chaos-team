@@ -1,0 +1,54 @@
+/* css for mobile version */
+.advantages-section {
+  padding: 32px 0;
+}
+
+.advantages-section-container {
+  min-width: 288px;
+}
+
+.subtitle-cont {
+  width: 72px;
+}
+
+.advantages-subtitle {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.advantages-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.advantages-text {
+  margin-bottom: 48px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.advantages-list-item {
+}
+
+.advantages-img {
+  border-radius: 32px;
+  margin-bottom: 8px;
+}
+
+.adv-list-subtitle {
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.advantages-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
