@@ -1,4 +1,18 @@
 
+.section
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .section 
+    {
+        padding-top: 64px;
+        padding-bottom: 64px;   
+    }
+}
+
 .gallery-title
 {
     font-size: 48px;
@@ -27,34 +41,82 @@
 .gallery-list
 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+    flex-direction: column;
+    gap: 16px;    
 }
 
-.gallery-img
-{
-    width: 100%;
+.photo {
+    display: block;
+    max-width: 100%;
     border-radius: 32px;
-    background-color: transparent;
-    overflow: hidden;
-    
-}  
+}
 
 @media screen and (min-width: 768px) 
 {
-    .gallery-list {
+    .gallery-list 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 24px;
+    }
+    .gallery-img:nth-child(1) .photo 
+    {
+        grid-row: span 2 / span 2;
+    }
+    
+    .gallery-img:nth-child(2) .photo 
+    {
+        grid-row: span 4 / span 4;
+    }
+    
+    .gallery-img:nth-child(3) .photo 
+    {
+        grid-row: span 4 / span 4;
+        grid-row-start: 3;
+    }
+    
+    .gallery-img:nth-child(4) .photo 
+    {
+        grid-row: span 2 / span 2;
+        grid-column-start: 2;
+        grid-row-start: 5;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .gallery-list 
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 24px;
     }
 
-    .gallery-img {
-        width: calc((100% - 24px) / 2);
-    } 
-}
-
-@media screen and (min-width: 1440px) 
-{
-    .gallery-img
+    .gallery-img:nth-child(4) 
     {
-        width: calc((100% - 24px * 2) / 3);
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .gallery-img:nth-child(1) 
+    {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .gallery-img:nth-child(2) 
+    {
+        grid-row: span 2 / span 2;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .gallery-img:nth-child(3) 
+    {
+        grid-row: span 2 / span 2;
+        grid-column-start: 3;
+        grid-row-start: 1;
     }
 }
