@@ -6,7 +6,6 @@
 
 .assortment-title {
   font-size: 36px;
-  color: #030a06;
   margin-bottom: 32px;
 }
 
@@ -30,7 +29,9 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
 }
 
 .assortment-card img {
@@ -40,35 +41,30 @@
 
 .assortment-card-content {
   width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 8px;
 }
 
+.assortment-card-text-container {
+  min-height: 73px;
+}
 .assortment-card-title {
   font-size: 18px;
   line-height: 160%;
-  color: #030a06;
 }
 
 .assortment-card-text {
   font-size: 14px;
-  color: #030a06;
-  padding-bottom: 8px;
-  min-height: 44px;
 }
 
 .assortment-card-price {
   line-height: 160%;
   font-size: 20px;
-  color: #030a06;
 }
 
 .assortment-btn {
-  color: #030a06;
   padding: 8px 20px;
   background-color: transparent;
   display: block;
