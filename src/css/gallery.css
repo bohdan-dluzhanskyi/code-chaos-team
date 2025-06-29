@@ -33,7 +33,6 @@
 .gallery-title-text
 {
     font-size: 18px;
-    line-height: 1.6;
     text-align: center;
     margin-bottom: 32px;
 }
@@ -43,6 +42,12 @@
     display: flex;
     flex-direction: column;
     gap: 16px;    
+}
+
+.gallery-img 
+{
+    display: flex;
+    justify-content: center;
 }
 
 .photo {
