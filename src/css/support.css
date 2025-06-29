@@ -79,3 +79,44 @@
   background-repeat: no-repeat;
   border-radius: 40px;
 }
+
+.sup-input:focus::placeholder,
+.sup-textarea:focus::placeholder {
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .back-img {
+    background-image: image-set(
+      url(/img/supportimg/tab1c.jpg) 1x,
+      url(/img/supportimg/tab2c.jpg) 2x
+    );
+  }
+
+  .support {
+    padding: 64px 32px;
+  }
+
+  .sup-title {
+    max-width: 468px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .support {
+    padding: 64px;
+  }
+
+  .back-img {
+    background-image: image-set(
+      url(/img/supportimg/descver1c.jpg) 1x,
+      url(/img/supportimg/descver2c.jpg) 2x
+    );
+    width: 644px;
+    height: 767px;
+  }
+
+  .sup-container {
+    flex-direction: row;
+  }
+}
