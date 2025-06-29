@@ -1,3 +1,9 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* ====== MOBILE ====== */
 
 .footer-container {
@@ -17,11 +23,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 48px;
   margin-bottom: 48px;
-}
-
-.footer-nav {
-  margin-top: 48px;
 }
 
 .footer-nav-menu {
@@ -30,7 +33,6 @@
   align-items: center;
   text-align: center;
   gap: 32px;
-  margin-bottom: 48px;
 }
 
 .social-list {
@@ -85,6 +87,12 @@
 .footer-second {
   position: relative;
   padding-top: 24px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ===== TABLET ===== */
