@@ -26,7 +26,6 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .nav {
   display: none;
 }
@@ -122,12 +121,8 @@
 }
 
 .mobile-nav-container {
-padding: 32px 0px;
-margin-bottom: 32px;
-
-}
-
-.mobile-menu-nav {
+  padding: 32px 0px;
+  margin-bottom: 32px;
 }
 
 .mobile-menu-nav-list {
@@ -156,12 +151,6 @@ margin-bottom: 32px;
   display: block;
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mobile-menu-contacts {
-}
-
-.mobile-menu-wrapper {
 }
 
 .mobile-menu-contacts-list {
@@ -221,11 +210,10 @@ margin-bottom: 32px;
     margin-bottom: 0;
   }
 
-
-.mobile-menu-wrapper {
-  padding-top: 32px;
+  .mobile-menu-wrapper {
+    padding-top: 32px;
+  }
 }
-
 
 /*----------------PC----------------*/
 
