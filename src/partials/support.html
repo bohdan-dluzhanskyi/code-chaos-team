@@ -1,51 +1,54 @@
 <section class="support">
   <div class="sup-container">
-    <div class="support-content">
-      <h2 class="section-title sup">Залишились питання? Зв'яжіться з нами!</h2>
-      <h3 class="list-text sup">Ми тут, щоб допомогти!</h3>
+    <div class="form-sup">
+      <div class="support-content">
+        <h2 class="section-title sup">
+          Залишились питання? Зв'яжіться з нами!
+        </h2>
+        <h3 class="list-text sup">Ми тут, щоб допомогти!</h3>
+      </div>
+
+      <div class="sup-wrap">
+        <form class="form">
+          <div class="sup-form">
+            <label for="user-name" class="inf">Ім'я</label>
+            <input
+              class="sup-input"
+              type="text"
+              name="user-name"
+              required
+              id="user-name"
+              placeholder="Іван"
+            />
+          </div>
+
+          <div class="sup-form">
+            <label for="user-email" class="inf">Електронна пошта</label>
+            <input
+              class="sup-input"
+              type="text"
+              name="user-email"
+              required
+              id="user-email"
+              placeholder="hello@ecotote.com"
+            />
+          </div>
+
+          <div class="sup-form">
+            <label for="user-comment" class="inf">Повідомлення</label>
+
+            <textarea
+              class="sup-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Введіть своє повідомлення..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="sup-button">Надіслати</button>
+        </form>
+      </div>
     </div>
-
-    <div class="sup-wrap">
-      <form>
-        <div class="sup-form">
-          <label for="user-name" class="inf">Ім'я</label>
-          <input
-            class="sup-input"
-            type="text"
-            name="user-name"
-            required
-            id="user-name"
-            placeholder="Іван"
-          />
-        </div>
-
-        <div class="sup-form">
-          <label for="user-email" class="inf">Електронна пошта</label>
-          <input
-            class="sup-input"
-            type="text"
-            name="user-email"
-            required
-            id="user-email"
-            placeholder="hello@ecotote.com"
-          />
-        </div>
-
-        <div class="sup-form">
-          <label for="user-comment" class="inf">Повідомлення</label>
-
-          <textarea
-            class="sup-textarea"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Введіть своє повідомлення..."
-          ></textarea>
-        </div>
-
-        <button type="submit" class="sup-button">Надіслати</button>
-      </form>
-    </div>
-
     <div class="back-img"></div>
   </div>
 </section>
