@@ -1,4 +1,5 @@
 body {
+  min-width: 320px;
   font-family: 'Fira Sans', sans-serif;
   color: #030a06;
   background-color: #ebf8ed;
@@ -22,6 +23,7 @@ body {
   line-height: 1.6;
 }
 
+hero
 html {
   scroll-behavior: smooth;
 }
@@ -44,4 +46,18 @@ html {
 .link:active {
   background: #113916;
   opacity: 0.6;
+
+.btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
