@@ -1,14 +1,19 @@
 /* css for mobile version */
-.advantages-section {
+.advantages {
   padding: 32px 0;
 }
 
-.advantages-section-container {
-  min-width: 288px;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 4px;
+  max-width: 288px;
+  margin: 0 auto;
 }
-
-.subtitle-cont {
-  width: 72px;
+.wrap {
+  max-width: 288px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .advantages-subtitle {
@@ -23,17 +28,12 @@
   margin-bottom: 20px;
 }
 
-.advantages-text {
-  margin-bottom: 48px;
-}
-
 .advantages-list {
+  max-width: 288px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-}
-
-.advantages-list-item {
 }
 
 .advantages-img {
@@ -51,4 +51,87 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+}
+
+/* =====TABLET===== */
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding: 64px 0;
+  }
+
+  .wrap {
+    max-width: 704px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .advantages-title {
+    margin-bottom: 24px;
+  }
+
+  .advantages-subtitle {
+    margin-bottom: 16px;
+  }
+
+  .advantages-text {
+    font-size: 18px;
+  }
+
+  .advantages-list {
+    min-width: 704px;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  .advantages-list-item:nth-child(2) .text-container {
+    row-gap: 42px;
+  }
+
+  .advantages-list-item:nth-child(3) .text-container {
+    max-width: 704px;
+  }
+
+  .text-container {
+    max-width: 340px;
+    row-gap: 8px;
+    margin-top: 32px;
+  }
+}
+
+/* =====DESKTOP===== */
+@media screen and (min-width: 1440px) {
+  .wrap {
+    max-width: 768px;
+    margin-left: 0;
+    margin-bottom: 80px;
+  }
+
+  .advantages-title {
+    font-size: 48px;
+  }
+
+  .advantages-list {
+    min-width: 1312px;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .advantages-list-item {
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 421px;
+  }
+
+  .advantages-list-item:nth-child(2) .text-container {
+    row-gap: 24px;
+  }
+
+  .text-container {
+    max-width: 421px;
+    gap: 24px;
+  }
+
+  .adv-list-subtitle {
+    font-size: 32px;
+  }
 }
