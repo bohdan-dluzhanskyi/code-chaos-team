@@ -8,12 +8,15 @@
     flex-direction: row;
     gap: 24px;
     align-items: flex-start;
+    margin-bottom: 20px;
   }
   .hero-text-and-btn {
     gap: 32px;
+    margin-bottom: 0;
   }
   .hero-title {
     max-width: 340px;
+    margin-bottom: 0;
   }
   .hero-text {
     max-width: 340px;
