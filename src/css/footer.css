@@ -1,9 +1,3 @@
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 /* ====== MOBILE ====== */
 
 .footer-container {
@@ -95,6 +89,70 @@ ul {
   align-items: center;
 }
 
+.connect-phone,
+.connect-email {
+  transition: 200ms ease-in;
+}
+
+.connect-phone:hover,
+.connect-email:hover,
+.connect-phone:focus,
+.connect-phone:focus {
+  opacity: 0.5;
+}
+
+.connect-phone:active,
+.connect-email:active {
+  color: #113916;
+  opacity: 0.6;
+}
+
+.connect-phone:disabled,
+.connect-email:disabled {
+  opacity: 0.2;
+}
+
+.footer-menu-list {
+  transition: 200ms ease-in;
+}
+
+.footer-menu-list:hover,
+.footer-menu-list:focus {
+  opacity: 0.5;
+}
+
+.footer-menu-list:active {
+  color: #113916;
+  opacity: 0.6;
+}
+
+.footer-menu-list:disabled {
+  opacity: 0.2;
+}
+
+.social-icon,
+.logo-icon {
+  transition: 200ms ease-in;
+}
+
+.social-icon:hover,
+.logo-icon:hover,
+.social-icon:focus,
+.logo-icon:focus {
+  opacity: 0.5;
+}
+
+.social-icon:active,
+.logo-icon:active {
+  color: #113916;
+  opacity: 0.6;
+}
+
+.social-icon:disabled,
+.logo-icon:disabled {
+  opacity: 0.2;
+}
+
 /* ===== TABLET ===== */
 
 @media screen and (min-width: 768px) {
@@ -179,5 +237,19 @@ ul {
   .social-icon {
     width: 24px;
     height: 24px;
+  }
+
+  .connect-phone:hover,
+  .connect-email:hover {
+    opacity: 0.5;
+  }
+
+  .footer-menu-list:hover {
+    opacity: 0.5;
+  }
+
+  .social-icon:hover,
+  .logo-icon:hover {
+    opacity: 0.5;
   }
 }
