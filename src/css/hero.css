@@ -16,23 +16,15 @@
   gap: 24px;
 }
 .hero-title {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
   font-size: 40px;
-  line-height: 48px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-  color: #030a06;
   margin-bottom: 20px;
   max-width: 288px;
 }
 .hero-text {
-  font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   line-height: 160%;
-  color: #030a06;
   max-width: 288px;
 }
 .hero-btn {
@@ -51,6 +43,7 @@
   color: #fff;
   text-align: center;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .hero-img {
   border-radius: 40px;
