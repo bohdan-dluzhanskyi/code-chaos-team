@@ -41,7 +41,7 @@
 {
     display: flex;
     flex-direction: column;
-    gap: 16px;    
+    gap: 16px; 
 }
 
 .gallery-img 
@@ -56,72 +56,63 @@
     border-radius: 32px;
 }
 
-@media screen and (min-width: 768px) 
-{
-    .gallery-list 
-    {
+@media screen and (min-width: 768px) {
+    .gallery-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 24px;
     }
-    .gallery-img:nth-child(1) .photo 
-    {
-        grid-row: span 2 / span 2;
-    }
-    
-    .gallery-img:nth-child(2) .photo 
-    {
-        grid-row: span 4 / span 4;
-    }
-    
-    .gallery-img:nth-child(3) .photo 
-    {
-        grid-row: span 4 / span 4;
+
+    .gallery-img1 {
+        grid-column-start: 2;
         grid-row-start: 3;
     }
-    
-    .gallery-img:nth-child(4) .photo 
-    {
+
+    .gallery-img2 {
         grid-row: span 2 / span 2;
         grid-column-start: 2;
-        grid-row-start: 5;
+        grid-row-start: 1;
     }
 
+    .gallery-img3 {
+        grid-row: span 2 / span 2;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .gallery-img4 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    .gallery-list 
-    {
+    .gallery-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 24px;
     }
 
-    .gallery-img:nth-child(4) 
-    {
-        grid-column-start: 1;
-        grid-row-start: 1;
-    }
-
-    .gallery-img:nth-child(1) 
-    {
+    .gallery-img1 {
         grid-column-start: 1;
         grid-row-start: 2;
     }
 
-    .gallery-img:nth-child(2) 
-    {
+    .gallery-img2 {
         grid-row: span 2 / span 2;
         grid-column-start: 2;
         grid-row-start: 1;
     }
 
-    .gallery-img:nth-child(3) 
-    {
+    .gallery-img3 {
         grid-row: span 2 / span 2;
         grid-column-start: 3;
         grid-row-start: 1;
     }
-}
+
+    .gallery-img4 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    } }
