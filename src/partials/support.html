@@ -9,17 +9,23 @@
       </div>
 
       <div class="sup-wrap">
-        <form class="form">
+        <form class="form-inp-sup">
           <div class="sup-form">
             <label for="user-name" class="inf">Ім'я</label>
             <input
               class="sup-input"
               type="text"
               name="user-name"
-              required
               id="user-name"
               placeholder="Іван"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              )
+              required
+              minlength="5"
+              maxlength="64"
             />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Error text</p>
           </div>
 
           <div class="sup-form">
@@ -28,10 +34,16 @@
               class="sup-input"
               type="text"
               name="user-email"
-              required
               id="user-email"
               placeholder="hello@ecotote.com"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              )
+              required
+              minlength="5"
+              maxlength="64"
             />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Error text</p>
           </div>
 
           <div class="sup-form">
@@ -42,7 +54,12 @@
               name="user-comment"
               id="user-comment"
               placeholder="Введіть своє повідомлення..."
-            ></textarea>
+              maxlength="500"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              )
+              required
+            >
+            </textarea>
           </div>
 
           <button type="submit" class="sup-button">Надіслати</button>
