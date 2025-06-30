@@ -29,3 +29,26 @@ body {
   line-height: 160%;
   color: #030a06;
 }
+html {
+  scroll-behavior: smooth;
+}
+/* hover, focus, active for button */
+.btn:hover,
+.btn:focus {
+  background: #030a06;
+  opacity: 0.5;
+}
+.btn:active {
+  background: #113916;
+  opacity: 0.6;
+}
+/* hover, focus, active for link */
+.link:hover,
+.link:focus {
+  background: #030a06;
+  opacity: 0.5;
+}
+.link:active {
+  background: #113916;
+  opacity: 0.6;
+}
