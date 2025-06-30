@@ -47,6 +47,7 @@ html {
 .link:active {
   background: #113916;
   opacity: 0.6;
+}
 
 .btn {
   font-weight: 400;
@@ -62,4 +63,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
