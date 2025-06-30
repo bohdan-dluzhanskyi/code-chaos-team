@@ -16,9 +16,5 @@
     });
   });
 
-  mobileLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu.classList.remove('is-open');
-    })
-  });
+  
 
