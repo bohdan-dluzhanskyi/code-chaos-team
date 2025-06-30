@@ -73,13 +73,14 @@
   width: 100%;
 }
 
-.assortment-btn:hover {
-  opacity: 0.5;
+.assortment-btn:hover,
+.assortment-btn:focus {
+  background: transparent;
 }
 
-.assortment-btn:focus {
+.assortment-btn:active {
   border: 1px solid #113916;
-  opacity: 0.6;
+  color: #113916;
 }
 
 /*media tablet */
