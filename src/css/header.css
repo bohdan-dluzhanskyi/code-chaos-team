@@ -28,9 +28,9 @@
 
 .nav-logo:hover,
 .nav-logo:focus .nav-logo-icon {
-  fill: #fff;
-  background-color: #030a06;
-  border: none;
+  /* fill: #fff; */
+  /* background-color: #030a06; */
+  /* border: none; */
 }
 
 .nav {

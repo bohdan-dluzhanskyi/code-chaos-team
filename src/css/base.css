@@ -30,9 +30,10 @@ html {
 }
 
 /* hover, focus, active for button */
+
 .btn:hover,
 .btn:focus {
-  background: #030a06;
+  background-color: #030a06;
   opacity: 0.5;
 }
 .btn:active {
