@@ -1,5 +1,6 @@
 .support {
-  padding: 32px 16px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .sup-container {
@@ -23,7 +24,8 @@
 }
 
 .sup-input {
-  width: 100%;
+  /* width: 100%; */
+  min-width: 288px;
   height: 42px;
   border: 1px solid rgba(3, 10, 6, 0.15);
   border-radius: 6px;
@@ -92,23 +94,18 @@
   background: rgba(3, 10, 6, 0.05);
 }
 
-.btn.sup {
-  /* border: 1px solid #030a06;
-  border-radius: 6px;
+/* .btn.sup {
   padding: 12px 24px;
   width: 288px;
   height: 50px;
   background: #030a06;
   color: #fff;
-  font-weight: 400;
-  font-size: 16px; */
-  line-height: 1.6;
-  /* display: block; */
-  /* align-items: center;
-  justify-content: center; */
-}
+  display: block;
+  align-items: center;
+  justify-content: center;
+} */
 
-.btn.sup:hover,
+/* .btn.sup:hover,
 .btn.sup:focus {
   background-color: transparent;
   color: #030a06;
@@ -117,7 +114,7 @@
 .btn.sup:active {
   outline: none;
   border: none;
-}
+} */
 
 .sup-form {
   margin-bottom: 24px;
@@ -153,6 +150,8 @@
       url(/img/supportimg/tab1c.jpg) 1x,
       url(/img/supportimg/tab2c.jpg) 2x
     );
+
+    height: 428px;
   }
 
   .section-title.sup {
@@ -178,7 +177,7 @@
       url(/img/supportimg/descver1c.jpg) 1x,
       url(/img/supportimg/descver2c.jpg) 2x
     );
-    width: 644px;
+
     height: 767px;
   }
 
