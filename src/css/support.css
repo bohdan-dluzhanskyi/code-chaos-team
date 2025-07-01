@@ -40,14 +40,6 @@
   border-color: green;
 }
 
-.sup-textarea:not(:placeholder-shown):invalid {
-  border-color: #d64040;
-}
-
-.sup-textarea:not(:placeholder-shown):valid {
-  border-color: green;
-}
-
 .text-valid,
 .text-invalid {
   font-size: 14px;
@@ -91,6 +83,14 @@
   border-radius: 6px;
   padding: 12px;
   background: rgba(3, 10, 6, 0.05);
+}
+
+.sup-textarea:not(:placeholder-shown):invalid {
+  border-color: #d64040;
+}
+
+.sup-textarea:not(:placeholder-shown):valid {
+  border-color: green;
 }
 
 .btn.sup {
