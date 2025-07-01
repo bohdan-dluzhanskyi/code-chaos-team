@@ -1,5 +1,6 @@
 .support {
-  padding: 32px 16px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .sup-container {
@@ -19,6 +20,7 @@
 
 .list-text.sup {
   font-size: 18px;
+  margin-bottom: 32px;
 }
 
 .sup-input {
@@ -31,7 +33,7 @@
 }
 
 .sup-input:not(:placeholder-shown):invalid {
-  border-color: red;
+  border-color: #d64040;
 }
 
 .sup-input:not(:placeholder-shown):valid {
@@ -39,7 +41,7 @@
 }
 
 .sup-textarea:not(:placeholder-shown):invalid {
-  border-color: red;
+  border-color: #d64040;
 }
 
 .sup-textarea:not(:placeholder-shown):valid {
@@ -59,10 +61,14 @@
 }
 
 .text-invalid {
-  color: red;
+  color: #d64040;
 }
 
 .sup-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+.sup-input:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
 }
 
@@ -87,34 +93,27 @@
   background: rgba(3, 10, 6, 0.05);
 }
 
-.sup-button {
-  border: 1px solid #030a06;
-  border-radius: 6px;
+.btn.sup {
   padding: 12px 24px;
   width: 288px;
   height: 50px;
   background: #030a06;
   color: #fff;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.6;
   display: block;
   align-items: center;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sup-button:hover,
-.sup-button:focus {
+/* .btn.sup:hover,
+.btn.sup:focus {
   background-color: transparent;
   color: #030a06;
 }
 
-.sup-button:active {
+.btn.sup:active {
   outline: none;
   border: none;
-}
+} */
 
 .sup-form {
   margin-bottom: 24px;
@@ -133,12 +132,25 @@
   border-radius: 40px;
 }
 
+.inf {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+}
+
 @media screen and (min-width: 768px) {
+  .support {
+    padding: 64px 32px;
+  }
+
   .back-img {
     background-image: image-set(
       url(/img/supportimg/tab1c.jpg) 1x,
       url(/img/supportimg/tab2c.jpg) 2x
     );
+
+    height: 428px;
   }
 
   .section-title.sup {
@@ -156,12 +168,15 @@
 }
 
 @media screen and (min-width: 1140px) {
+  .support {
+    padding: 64px;
+  }
   .back-img {
     background-image: image-set(
       url(/img/supportimg/descver1c.jpg) 1x,
       url(/img/supportimg/descver2c.jpg) 2x
     );
-    width: 644px;
+
     height: 767px;
   }
 
