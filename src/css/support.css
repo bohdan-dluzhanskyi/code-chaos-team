@@ -170,9 +170,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .support {
-    padding: 64px;
-  }
   .back-img {
     background-image: image-set(
       url(/img/supportimg/descver1c.jpg) 1x,
