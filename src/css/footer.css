@@ -1,4 +1,4 @@
-/* ===== MOBILE ===== */
+/* ====== MOBILE ====== */
 
 .footer-container {
   max-width: 320px;
@@ -17,10 +17,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.footer-nav {
-  margin-top: 48px;
+  gap: 48px;
+  margin-bottom: 48px;
 }
 
 .footer-nav-menu {
@@ -29,7 +27,6 @@
   align-items: center;
   text-align: center;
   gap: 32px;
-  margin-bottom: 48px;
 }
 
 .social-list {
@@ -41,12 +38,10 @@
 
 .custom-divider {
   height: 0;
-  width: 280px;
+  width: 100%;
   border-top: 1px solid rgba(3, 10, 6, 0.15);
-  margin-top: 48px;
-  margin-bottom: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  top: 0;
 }
 
 .footer-menu-list {
@@ -83,6 +78,76 @@
   margin-top: 24px;
 }
 
+.footer-second {
+  position: relative;
+  padding-top: 24px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-phone,
+.connect-email {
+  transition: 200ms ease-in;
+}
+
+.connect-phone:focus,
+.connect-email:focus {
+  opacity: 0.5;
+}
+
+.connect-phone:active,
+.connect-email:active {
+  color: #113916;
+  opacity: 0.6;
+}
+
+.connect-phone:disabled,
+.connect-email:disabled {
+  opacity: 0.2;
+}
+
+.footer-menu-list {
+  transition: 200ms ease-in;
+}
+
+.footer-menu-list:focus {
+  opacity: 0.5;
+}
+
+.footer-menu-list:active {
+  color: #113916;
+  opacity: 0.6;
+}
+
+.footer-menu-list:disabled {
+  opacity: 0.2;
+}
+
+.social-icon,
+.logo-icon {
+  transition: 200ms ease-in;
+}
+
+.social-icon:focus,
+.logo-icon:focus {
+  opacity: 0.5;
+}
+
+.social-icon:active,
+.logo-icon:active {
+  color: #113916;
+  opacity: 0.6;
+}
+
+.social-icon:disabled,
+.logo-icon:disabled {
+  opacity: 0.2;
+}
+
 /* ===== TABLET ===== */
 
 @media screen and (min-width: 768px) {
@@ -97,8 +162,8 @@
   }
 
   .logo-icon {
-    width: 160px;
-    height: 60px;
+    width: 164px;
+    height: 70px;
   }
 
   .footer-nav-menu {
@@ -115,12 +180,6 @@
     height: 40px;
   }
 
-  .custom-divider {
-    width: 704px;
-    margin-top: 24px;
-    margin-bottom: 16px;
-  }
-
   .footer-contacts-list {
     display: flex;
     align-items: baseline;
@@ -130,6 +189,15 @@
 
   .footer-copy {
     margin: 0;
+  }
+
+  .footer-second {
+    padding-top: 16px;
+  }
+
+  .footer-first {
+    gap: 32px;
+    margin-bottom: 24px;
   }
 }
 
@@ -151,6 +219,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 52px;
   }
 
   .footer-nav-menu {
@@ -166,9 +235,17 @@
     height: 24px;
   }
 
-  .custom-divider {
-    width: 1312px;
-    margin-top: 52px;
-    margin-bottom: 16px;
+  .connect-phone:hover,
+  .connect-email:hover {
+    opacity: 0.5;
+  }
+
+  .footer-menu-list:hover {
+    opacity: 0.5;
+  }
+
+  .social-icon:hover,
+  .logo-icon:hover {
+    opacity: 0.5;
   }
 }
