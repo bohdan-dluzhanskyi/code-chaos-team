@@ -92,9 +92,11 @@
 
 .mobile-menu-close {
   position: absolute;
-  top: 16px;
-  right: 20px;
+  top: 8px;
+  right: 12px;
   padding: 0;
+  height: 48px;
+  width: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
