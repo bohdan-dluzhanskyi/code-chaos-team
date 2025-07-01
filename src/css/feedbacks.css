@@ -7,9 +7,6 @@
   max-width: 288px;
 }
 
-.container {
-}
-
 .feedbacks-title {
   font-size: 36px;
   text-align: center;
@@ -22,16 +19,10 @@
   gap: 40px;
 }
 
-.feedbacks-item {
-}
-
 .feedbacks-stars-list {
   display: flex;
   gap: 4px;
   margin-bottom: 12px;
-}
-
-.feedbacks-stars-item {
 }
 
 .feedbacks-icon {
