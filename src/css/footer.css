@@ -94,10 +94,8 @@
   transition: 200ms ease-in;
 }
 
-.connect-phone:hover,
-.connect-email:hover,
 .connect-phone:focus,
-.connect-phone:focus {
+.connect-email:focus {
   opacity: 0.5;
 }
 
@@ -116,7 +114,6 @@
   transition: 200ms ease-in;
 }
 
-.footer-menu-list:hover,
 .footer-menu-list:focus {
   opacity: 0.5;
 }
@@ -135,8 +132,6 @@
   transition: 200ms ease-in;
 }
 
-.social-icon:hover,
-.logo-icon:hover,
 .social-icon:focus,
 .logo-icon:focus {
   opacity: 0.5;
@@ -201,6 +196,7 @@
   }
 
   .footer-first {
+    gap: 32px;
     margin-bottom: 24px;
   }
 }
