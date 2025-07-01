@@ -23,6 +23,12 @@ button {
   cursor: pointer;
 }
 
+input,
+button {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
 img {
   display: block;
   max-width: 100%;
