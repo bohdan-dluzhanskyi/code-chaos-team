@@ -24,8 +24,7 @@
 }
 
 .sup-input {
-  /* width: 100%; */
-  min-width: 288px;
+  width: 100%;
   height: 42px;
   border: 1px solid rgba(3, 10, 6, 0.15);
   border-radius: 6px;
@@ -94,7 +93,7 @@
   background: rgba(3, 10, 6, 0.05);
 }
 
-/* .btn.sup {
+.btn.sup {
   padding: 12px 24px;
   width: 288px;
   height: 50px;
@@ -103,7 +102,7 @@
   display: block;
   align-items: center;
   justify-content: center;
-} */
+}
 
 /* .btn.sup:hover,
 .btn.sup:focus {
