@@ -13,7 +13,6 @@
 .feedbacks-title {
   font-size: 36px;
   text-align: center;
-  color: #030a06;
   margin-bottom: 32px;
 }
 
@@ -40,20 +39,14 @@
 }
 
 .feedbacks-text {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #030a06;
   margin-bottom: 24px;
 }
 
 .feedbacks-author {
-  font-weight: 600;
   font-size: 16px;
   line-height: 1.6;
-  color: #030a06;
 }
 
 .feedbacks-icon.empty {
