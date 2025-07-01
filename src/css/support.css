@@ -40,14 +40,6 @@
   border-color: green;
 }
 
-.sup-textarea:not(:placeholder-shown):invalid {
-  border-color: #d64040;
-}
-
-.sup-textarea:not(:placeholder-shown):valid {
-  border-color: green;
-}
-
 .text-valid,
 .text-invalid {
   font-size: 14px;
@@ -91,6 +83,14 @@
   border-radius: 6px;
   padding: 12px;
   background: rgba(3, 10, 6, 0.05);
+}
+
+.sup-textarea:not(:placeholder-shown):invalid {
+  border-color: #d64040;
+}
+
+.sup-textarea:not(:placeholder-shown):valid {
+  border-color: green;
 }
 
 .btn.sup {
@@ -137,11 +137,13 @@
   font-size: 16px;
   line-height: 1.6;
   color: #030a06;
+  margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .support {
-    padding: 64px 32px;
+    padding-bottom: 64px;
+    padding-top: 64px;
   }
 
   .back-img {
@@ -167,10 +169,7 @@
   }
 }
 
-@media screen and (min-width: 1140px) {
-  .support {
-    padding: 64px;
-  }
+@media screen and (min-width: 1440px) {
   .back-img {
     background-image: image-set(
       url(/img/supportimg/descver1c.jpg) 1x,
@@ -183,12 +182,13 @@
   .sup-container {
     flex-direction: row;
   }
+
   .form-sup {
     display: flex;
     flex-direction: column;
   }
 
-  .sup-button {
+  .btn.sup {
     width: 198px;
   }
 
