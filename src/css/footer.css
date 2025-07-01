@@ -156,6 +156,12 @@
   opacity: 0.2;
 }
 
+.logo-icon {
+  display: block;
+  max-width: 280px;
+  height: auto;
+}
+
 /* ===== TABLET ===== */
 
 @media screen and (min-width: 768px) {
@@ -169,8 +175,7 @@
   }
 
   .logo-icon {
-    width: 164px;
-    height: 70px;
+    max-width: 164px;
   }
 
   .footer-nav-menu {
