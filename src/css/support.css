@@ -137,11 +137,13 @@
   font-size: 16px;
   line-height: 1.6;
   color: #030a06;
+  margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .support {
-    padding: 64px 32px;
+    padding-bottom: 64px;
+    padding-top: 64px;
   }
 
   .back-img {
@@ -183,12 +185,13 @@
   .sup-container {
     flex-direction: row;
   }
+
   .form-sup {
     display: flex;
     flex-direction: column;
   }
 
-  .sup-button {
+  .btn.sup {
     width: 198px;
   }
 
