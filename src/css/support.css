@@ -41,7 +41,7 @@
 }
 
 .sup-input:not(:placeholder-shown):valid {
-  border-color: green;
+  border-color: rgba(3, 10, 6, 0.15);
 }
 
 .text-valid,
@@ -50,10 +50,6 @@
   padding-left: 20px;
   margin-top: 4px;
   display: none;
-}
-
-.text-valid {
-  color: green;
 }
 
 .text-invalid {
@@ -87,6 +83,7 @@
   border-radius: 6px;
   padding: 12px;
   background: rgba(3, 10, 6, 0.05);
+  resize: none;
 }
 
 .sup-textarea:not(:placeholder-shown):invalid {
@@ -94,7 +91,7 @@
 }
 
 .sup-textarea:not(:placeholder-shown):valid {
-  border-color: green;
+  border-color: rgba(3, 10, 6, 0.15);
 }
 
 .btn.sup {
