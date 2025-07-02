@@ -37,6 +37,8 @@
 .advantages-img {
   border-radius: 32px;
   margin-bottom: 8px;
+  min-width: 288px;
+  height: 198px;
 }
 
 .adv-list-subtitle {
@@ -77,6 +79,16 @@
     min-width: 704px;
     column-gap: 24px;
     row-gap: 24px;
+  }
+
+  .advantages-img {
+    max-width: 340px;
+    height: 202px;
+  }
+
+  .accent-image {
+    max-width: 704px;
+    height: 418px;
   }
 
   .advantages-list-item:nth-child(2) .text-container {
@@ -120,6 +132,11 @@
 
   .advantages-list-item:nth-child(2) .text-container {
     row-gap: 24px;
+  }
+
+  .advantages-img {
+    max-width: 421px;
+    height: 249px;
   }
 
   .text-container {
