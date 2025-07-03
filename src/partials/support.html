@@ -1,4 +1,4 @@
-<section class="support">
+<section class="support" id="support">
   <div class="sup-container container">
     <div class="form-sup">
       <div class="support-content">
@@ -18,8 +18,6 @@
               name="user-name"
               id="user-name"
               placeholder="Іван"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              )
               required
               minlength="5"
               maxlength="64"
@@ -34,12 +32,11 @@
             >
             <input
               class="sup-input list-text"
-              type="text"
+              type="email"
               name="user-email"
               id="user-email"
               placeholder="hello@ecotote.com"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              )
               required
               minlength="5"
               maxlength="64"
@@ -57,9 +54,9 @@
               id="user-comment"
               placeholder="Введіть повідомлення..."
               maxlength="500"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              )
             ></textarea>
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Error text</p>
           </div>
 
           <button type="submit" class="btn sup">Надіслати</button>
