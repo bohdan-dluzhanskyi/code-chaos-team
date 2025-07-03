@@ -88,8 +88,8 @@
   }
 
   .advantages-list-item:nth-child(3) .advantages-img {
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
+    height: auto;
   }
 
   .text-container {
