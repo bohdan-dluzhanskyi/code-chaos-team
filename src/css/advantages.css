@@ -87,6 +87,11 @@
     max-width: 704px;
   }
 
+  .advantages-list-item:nth-child(3) .advantages-img {
+    /* width: 100%;
+    height: auto; */
+  }
+
   .text-container {
     max-width: 340px;
     row-gap: 8px;
